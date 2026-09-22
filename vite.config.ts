@@ -5,6 +5,7 @@ import {defineConfig} from 'vite';
 
 export default defineConfig(() => {
   return {
+    base: '/Syllable-Segmentation-Bakery/',
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {
