@@ -82,7 +82,7 @@ export default function App() {
       {/* Persistent Global Header */}
       <Header
         title={currentTrophy ? currentTrophy.gameName : 'Syllable Bakery'}
-        subtitle={currentGame ? 'The Vanpool School' : 'Syllable Segmentation Practice'}
+        subtitle="Syllable Segmentation Practice"
         currentGameId={currentGame}
         trophyCount={earnedTrophyCount}
         totalTrophies={10}
